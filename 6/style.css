@@ -1,0 +1,41 @@
+
+img {display: block; max-width: 100%}
+
+.row {
+  clear: both;
+}
+.cell {
+  float: left;
+  width: 33%;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+.header {
+
+  background-color: #65C73E;
+  width: 100%;
+  padding: 80px
+}
+.headerfont{
+  color: white;
+  text-align: center;
+
+}
+
+p{
+  text-align: center;
+}
+
+.padding {
+  padding: 20px
+}
+
+@media screen and (max-width:480px)
+{ .cell { width: 100%}
+
+
+  }
+
+  h1 {
+    margin: 0
+  }
